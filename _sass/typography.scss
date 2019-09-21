@@ -1,0 +1,23 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: #da79a8;
+}
+.attribute a {
+    color: #a14574;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #ffe4f8 50%);
+    background-position: -0% 0;
+    background-size: 200% auto;
+    text-decoration: none;
+    transition: background-position 0.5s ease-out;
+}
+.attribute a:hover {
+    background-position: -99.99% 0;
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 45px;
+    }
+}
