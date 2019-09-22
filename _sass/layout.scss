@@ -8,15 +8,29 @@ body {
 
 #intro {
     margin-left: 10vw;
-    margin-top: 10vw;
+    margin-top: 15vh;
 }
 
+.scrollable {
+    width: 40vw;
+    max-height: 50vh;
+    overflow-y: auto;
+    margin-left: 50vw;
+    background-color: #55414a;
+    opacity: 0.8;
+    padding: 2vw;
+}
 
 @media (max-width: 768px) {
     body {
         background-image: url("/assets/images/me_mobile.png");
     }
     #intro {
-        margin-top: 40%;
+        margin-top: 10vh;
+    }
+    .scrollable {
+        margin-left: 10vw;
+        width: 70vw;
+        opacity: 0.9;
     }
 }
