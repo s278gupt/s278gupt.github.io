@@ -16,9 +16,28 @@ body {
     max-height: 50vh;
     overflow-y: auto;
     margin-left: 50vw;
+}
+
+#about {
+    padding: 2vw;
     background-color: #55414a;
     opacity: 0.8;
-    padding: 2vw;
+}
+
+button {
+    background-color: #65506e;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#links {
+    text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -31,6 +50,8 @@ body {
     .scrollable {
         margin-left: 10vw;
         width: 70vw;
+    }
+    #about {
         opacity: 0.9;
     }
 }
