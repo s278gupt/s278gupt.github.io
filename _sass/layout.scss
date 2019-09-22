@@ -40,18 +40,33 @@ button:hover {
     text-align: center;
 }
 
+#links-mobile {
+    display: none;
+}
+
 @media (max-width: 768px) {
     body {
         background-image: url("/assets/images/me_mobile.png");
     }
     #intro {
-        margin-top: 10vh;
+        margin-top: 0;
     }
     .scrollable {
+        margin-top: 0;
         margin-left: 10vw;
         width: 70vw;
     }
     #about {
         opacity: 0.9;
+    }
+    #links {
+        display: none;
+    }
+    button {
+        margin-top: 15px;
+    }
+    #links-mobile {
+        text-align: center;
+        display: inline-block;
     }
 }
